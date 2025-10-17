@@ -1,0 +1,30 @@
+# GitHub Pages Configuration
+# This file ensures GitHub Pages serves your site correctly
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Site settings
+title: "Hacktoberfest 2025 - Top Contributors"
+description: "Digital badge awarding system for our tech club's Hacktoberfest event"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# GitHub Pages specific settings
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Exclude files from processing
+exclude:
+  - generate_badges.py
+  - generate_badges.js
+  - badge-template.svg
+  - README.md
+  - .gitignore
+
+# Include the badges directory
+include:
+  - badges/

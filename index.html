@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacktoberfest 2025 - Top Contributors</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+
+        .header p {
+            margin: 10px 0 0 0;
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .contributors-section {
+            padding: 40px 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 2em;
+            color: #333;
+        }
+
+        .contributors-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .contributor-card {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .contributor-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .contributor-name {
+            font-size: 1.3em;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .badge-container {
+            margin: 20px 0;
+        }
+
+        .badge-svg {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .download-link {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: #ff6b35;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+
+        .download-link:hover {
+            background: #e55b2b;
+        }
+
+        .instructions {
+            background: #e8f4f8;
+            border-left: 4px solid #ff6b35;
+            padding: 20px;
+            margin: 40px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .instructions h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .code-block {
+            background: #f1f3f4;
+            padding: 15px;
+            border-radius: 6px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            overflow-x: auto;
+            margin: 10px 0;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background: #f8f9fa;
+            color: #666;
+            border-top: 1px solid #eee;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2em;
+            }
+
+            .contributors-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>🏆 Hacktoberfest 2025</h1>
+            <p>Celebrating Our Top Contributors</p>
+        </header>
+
+        <main class="contributors-section">
+            <h2 class="section-title">Top 5 Contributors</h2>
+
+            <div class="contributors-grid">
+                <div class="contributor-card">
+                    <div class="contributor-name">@alice</div>
+                    <div class="badge-container">
+                        <img src="badges/badge-alice.svg" alt="Hacktoberfest 2025 Top Contributor Badge for @alice"
+                            class="badge-svg">
+                    </div>
+                    <a href="badges/badge-alice.svg" download="badge-alice.svg" class="download-link">Download Badge</a>
+                </div>
+
+                <div class="contributor-card">
+                    <div class="contributor-name">@bob</div>
+                    <div class="badge-container">
+                        <img src="badges/badge-bob.svg" alt="Hacktoberfest 2025 Top Contributor Badge for @bob"
+                            class="badge-svg">
+                    </div>
+                    <a href="badges/badge-bob.svg" download="badge-bob.svg" class="download-link">Download Badge</a>
+                </div>
+
+                <div class="contributor-card">
+                    <div class="contributor-name">@charlie</div>
+                    <div class="badge-container">
+                        <img src="badges/badge-charlie.svg" alt="Hacktoberfest 2025 Top Contributor Badge for @charlie"
+                            class="badge-svg">
+                    </div>
+                    <a href="badges/badge-charlie.svg" download="badge-charlie.svg" class="download-link">Download
+                        Badge</a>
+                </div>
+
+                <div class="contributor-card">
+                    <div class="contributor-name">@diana</div>
+                    <div class="badge-container">
+                        <img src="badges/badge-diana.svg" alt="Hacktoberfest 2025 Top Contributor Badge for @diana"
+                            class="badge-svg">
+                    </div>
+                    <a href="badges/badge-diana.svg" download="badge-diana.svg" class="download-link">Download Badge</a>
+                </div>
+
+                <div class="contributor-card">
+                    <div class="contributor-name">@eve</div>
+                    <div class="badge-container">
+                        <img src="badges/badge-eve.svg" alt="Hacktoberfest 2025 Top Contributor Badge for @eve"
+                            class="badge-svg">
+                    </div>
+                    <a href="badges/badge-eve.svg" download="badge-eve.svg" class="download-link">Download Badge</a>
+                </div>
+            </div>
+
+            <div class="instructions">
+                <h3>📋 How to Embed Your Badge</h3>
+                <p>Copy the markdown code below and paste it into your GitHub README.md file:</p>
+
+                <div class="code-block">
+                    ![Hacktoberfest 2025 Top Contributor
+                    Badge](https://&lt;your-username&gt;.github.io/&lt;repo-name&gt;/badges/badge-&lt;your-username&gt;.svg)
+                </div>
+
+                <p><strong>Don't forget to:</strong></p>
+                <ul>
+                    <li>Replace <code>&lt;your-username&gt;</code> with your GitHub username</li>
+                    <li>Replace <code>&lt;repo-name&gt;</code> with this repository's name</li>
+                    <li>Replace <code>&lt;your-username&gt;</code> in the filename with your actual username</li>
+                </ul>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>🎉 Congratulations to all our amazing contributors! Keep the open source spirit alive! 🎉</p>
+            <p>Generated with ❤️ for Hacktoberfest 2025</p>
+        </footer>
+    </div>
+</body>
+
+</html>
