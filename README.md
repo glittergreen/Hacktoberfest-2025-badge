@@ -4,7 +4,7 @@ A digital badge showcase celebrating our top contributors to the Hacktoberfest 2
 
 ## 🌟 Live Site
 
-Visit: [https://github.com/glittergreen/Hacktoberfest-2025-badge/](https://your-username.github.io/repo-name/)
+Visit: [https://github.com.io/glittergreen/Hacktoberfest-2025-badge/](https://your-username.github.io/repo-name/)
 
 ## 🎖️ Badge Gallery
 
